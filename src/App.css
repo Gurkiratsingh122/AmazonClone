@@ -1,0 +1,16 @@
+@keyframes moveText {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(7px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-move {
+    display: inline-block;
+    animation: moveText 1s infinite ease-in-out;
+  }
